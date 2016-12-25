@@ -12,7 +12,7 @@ int main()
 	
 	int squared = MySquare(x);
 	
-	cout << x << " squared is " << squared << "." << endl;
+	cout << x << " squared is " << squared << ".\n";
 
 	return 0;
 }
