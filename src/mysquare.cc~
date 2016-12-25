@@ -12,12 +12,8 @@ int main()
 	
 	int squared = MySquare(x);
 	
-//<<<<<<< HEAD
-//	cout << x << " squared is " << squared << ".\n";
-//=======
 	// This is the line that is being tested.
 	cout << x << " squared is " << squared << "." << endl << endl;
-//>>>>>>> af008d3b3f7d91c2ea7094316d9e51aacf78b1cc
 
 	return 0;
 }

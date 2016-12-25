@@ -2,18 +2,18 @@
 
 using namespace std;
 
-int MySquare(int x);
+int MySquare(int y);
 
 int main()
 {
 	cout << "Please enter a number to be squared: ";
-	int x;
-	cin >> x;
+	int y;
+	cin >> y;
 	
-	int squared = MySquare(x);
+	int squared = MySquare(y);
 	
 	// This is the line that is being tested.
-	cout << x << " squared is " << squared << "." << endl << endl;
+	cout << y << " squared is " << squared << "." << endl << endl;
 
 	return 0;
 }
@@ -21,7 +21,7 @@ int main()
 //=========================================================================================================================================
 // Returns the squared number from an integer input.
 //=========================================================================================================================================
-int MySquare(int x)
+int MySquare(int y)
 {
-	return x * x;
+	return y * y;
 }
