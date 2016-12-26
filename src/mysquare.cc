@@ -3,6 +3,7 @@
 using namespace std;
 
 int MySquare(int z);
+int MyCube(int x);
 
 int main()
 {
@@ -13,9 +14,21 @@ int main()
 	int squared = MySquare(z);
 	
 	// This is the line that is being tested.
-	cout << z << " squared is " << squared << "." << endl << endl;
+	cout << z << " squared is " << squared << "." << endl;
+	
+	int cubed = MyCube(z);
+	
+	cout << z << " cubed is " << cubed << "." << endl;
 
 	return 0;
+}
+
+//=========================================================================================================================================
+// Returns the cubed number from an integer input.
+//=========================================================================================================================================
+int MyCube(int x)
+{
+	return x * x * x;
 }
 
 //=========================================================================================================================================
