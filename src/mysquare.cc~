@@ -3,7 +3,7 @@
 using namespace std;
 
 int MySquare(int z);
-int myCube(int x);
+int MyCube(int x);
 
 int main()
 {
@@ -26,8 +26,9 @@ int main()
 //=========================================================================================================================================
 // Returns the cubed number from an integer input.
 //=========================================================================================================================================
-int myCube(int x)
+int MyCube(int x)
 {
+	// For the purposes of testing a git pull.
 	return x * x * x;
 }
 
